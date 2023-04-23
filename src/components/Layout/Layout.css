@@ -1,0 +1,23 @@
+#todo-list {
+    margin-bottom: 30px;
+}
+
+#todo-form {
+    margin-bottom: 50px;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+.nav-tabs .nav-item {
+    flex: 1;
+    text-align: center;
+}
+.nav-tabs .nav-item :hover {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+}
+
