@@ -5,9 +5,10 @@ import { Active } from './components/Pages/Active';
 import { Layout } from './components/Layout/Layout';
 import { NoPage } from './components/Pages/NoPage';
 
-
+// App function with Routing.
 function App() {
 
+  // Rendering components with correlated paths.
   return (
     <BrowserRouter>
       <Routes>
