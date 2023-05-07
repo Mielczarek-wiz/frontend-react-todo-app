@@ -20,7 +20,7 @@ export const Main = (props: IDataModelMain) => {
         <main id="todo-list" className="row">
             <div className="col-sm-4 col-sm-offset-4">
                 {todos.length !== 0 && todos}
-                {todos.length === 0 && <div className="text-center"> No elements to display. </div>}
+                {todos.length === 0 && <div className="text-center"> Brak elementów do wyświetlenia. </div>}
             </div>
         </main>
     )
