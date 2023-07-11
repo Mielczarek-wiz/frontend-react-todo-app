@@ -14,7 +14,7 @@ var app = express(); // create our app w/ express
 var port = 4000;
 
 // configuration ===============================================================
-mongoose.connect("mongodb+srv://mielczarekdamian:BtBoHYcuEGmWN9KI@frontendmongo.auio0hx.mongodb.net/test", {
+mongoose.connect(/*URL_FOR_MONGOOSE*/, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   retryWrites: true,
